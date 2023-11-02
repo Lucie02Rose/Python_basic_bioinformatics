@@ -1,6 +1,8 @@
 # 17/2/2023
 # Lucie Ruzickova
 # Python recap from 1st year
+# Source of code: Educational Material Provided by Imperial College, 
+# below are my solutions to coding problems based on the appropriate session as part of the BSc Biochemistry course
 #############################################
 # importing necessary packages
 import copy
