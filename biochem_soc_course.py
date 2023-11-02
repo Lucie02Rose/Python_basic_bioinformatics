@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# The following code contains my notes and solutions to the problems of the 
+# Biochemical Society R and Python studentship 2023
 """
 Spyder Editor
 
