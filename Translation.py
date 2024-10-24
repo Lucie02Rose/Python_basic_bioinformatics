@@ -17,22 +17,22 @@ import re
 
 # "dictionary of codons"
 
-codons = {'ata': 'I', 'atc': 'I', 'att': 'I', 'atg': 'M',
-          'aca': 'T', 'acc': 'T', 'acg': 'T', 'act': 'T',
-          'aac': 'N', 'aat': 'N', 'aaa': 'K', 'aag': 'K',
-          'agc': 'S', 'agt': 'S', 'aga': 'R', 'agg': 'R',
-          'cta': 'L', 'ctc': 'L', 'ctg': 'L', 'ctt': 'L',
-          'cca': 'P', 'ccc': 'P', 'ccg': 'P', 'cct': 'P',
-          'cac': 'H', 'cat': 'H', 'caa': 'Q', 'cag': 'Q',
-          'cga': 'R', 'cgc': 'R', 'cgg': 'R', 'cgt': 'R',
-          'gta': 'V', 'gtc': 'V', 'gtg': 'V', 'gtt': 'V',
-          'gca': 'A', 'gcc': 'A', 'gcg': 'A', 'gct': 'A',
-          'gac': 'D', 'gat': 'D', 'gaa': 'E', 'gag': 'E',
-          'gga': 'G', 'ggc': 'G', 'ggg': 'G', 'ggt': 'G',
-          'tca': 'S', 'tcc': 'S', 'tcg': 'S', 'tct': 'S',
-          'ttc': 'F', 'ttt': 'F', 'tta': 'L', 'ttg': 'L',
-          'tac': 'Y', 'tat': 'Y', 'taa': '_', 'tag': '_',
-          'tgc': 'C', 'tgt': 'C', 'tga': '_', 'tgg': 'W'}
+codons = {'ATA': 'I', 'ATC': 'I', 'ATT': 'I', 'ATG': 'M',
+          'ACA': 'T', 'ACC': 'T', 'ACG': 'T', 'ACT': 'T',
+          'AAC': 'N', 'AAT': 'N', 'AAA': 'K', 'AAG': 'K',
+          'AGC': 'S', 'AGT': 'S', 'AGA': 'R', 'AGG': 'R',
+          'CTA': 'L', 'CTC': 'L', 'CTG': 'L', 'CTT': 'L',
+          'CCA': 'P', 'CCC': 'P', 'CCG': 'P', 'CCT': 'P',
+          'CAC': 'H', 'CAT': 'H', 'CAA': 'Q', 'CAG': 'Q',
+          'CGA': 'R', 'CGC': 'R', 'CGG': 'R', 'CGT': 'R',
+          'GTA': 'V', 'GTC': 'V', 'GTG': 'V', 'GTT': 'V',
+          'GCA': 'A', 'GCC': 'A', 'GCG': 'A', 'GCT': 'A',
+          'GAC': 'D', 'GAT': 'D', 'GAA': 'E', 'GAG': 'E',
+          'GGA': 'G', 'GGC': 'G', 'GGG': 'G', 'GGT': 'G',
+          'TCA': 'S', 'TCC': 'S', 'TCG': 'S', 'TCT': 'S',
+          'TTC': 'F', 'TTT': 'F', 'TTA': 'L', 'TTG': 'L',
+          'TAC': 'Y', 'TAT': 'Y', 'TAA': '_', 'TAG': '_',
+          'TGC': 'C', 'TGT': 'C', 'TGA': '_', 'TGG': 'W'}
 
 # "total query length"
 
